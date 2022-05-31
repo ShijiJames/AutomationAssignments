@@ -1,0 +1,8 @@
+<suite name="MyTestSuite">
+	<test name="ParallelTest" parallel="methods" thread-count="2">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="TestNGAssignments.AssignmentTestNG"></class>
+		</classes>
+	</test>
+</suite>
